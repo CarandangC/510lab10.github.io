@@ -1,4 +1,19 @@
-"scripts": {
-  "build": "vue-cli-service build",
-  "deploy": "gh-pages -d dist"
+{
+  "name": "510lab10",
+  "version": "1.0.0",
+  "description": "My Vue.js project for GitHub Pages",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "gh-pages": "^6.2.0",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8"
+  },
+  "author": "Your Name",
+  "license": "MIT"
 }
